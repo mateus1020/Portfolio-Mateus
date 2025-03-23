@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Mateus <span>Assunção</span> </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i> <!-- SERÁ USADO MELHOR PARA O MENU NA RESPONSIVIDADE -->
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Olá, me chamo <span>Mateus</span>.</h1>
+            <h3 id="typing">Desenvolvedor <span>Frontend</span></h3>
+            <p>Criar um site é dar voz ao seu negócio no mundo digital. Desenvolvo páginas modernas, responsivas e
+                otimizadas para que você alcance mais pessoas e divulgue o seu negócio.
+                Vamos dar <span>vida ao seu projeto</span> ?
+            </p>
+
+            <div class="social-icons">
+                <a href="https://github.com/mateus1020" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/mateus-de-assun%C3%A7%C3%A3o-dias-548994133/" target="_blank">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+
+                <a href="https://www.instagram.com/teusdiass/" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#contact" class="btn">Contato</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="img/foto-perfil.jpeg" alt="Imagem de um homem sentado">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="tech-icons">
+                <i class="bx bxl-html5"></i>
+                <i class="bx bxl-css3"></i>
+                <i class="bx bxl-javascript"></i>
+                <i class="bx bxl-react"></i>
+                <i class="bx bxl-nodejs"></i>
+                <i class="bx bxl-bootstrap"></i>
+            </div>
+
+            <div class="about-content">
+                <h2>Sobre <span>Mim</span></h2>
+                <p>Sou Mateus Assunção, formado em Análise e Desenvolvimento de Sistemas. Sempre fui curioso sobre como
+                    sites e apps funcionam, o que me levou ao mundo da programação.
+
+                    Atualmente, desenvolvo interfaces modernas e responsivas com HTML, CSS, JavaScript e React, enquanto
+                    aprimoro minhas habilidades no backend com Node.js e Java. Meu objetivo é me tornar um Desenvolvedor
+                    Fullstack e criar soluções eficientes de ponta a ponta.
+
+                    Vamos trocar uma ideia sobre programação ou colaborar em um projeto? Estou por aqui!
+
+                </p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <section class="services" id="services">
+        <h2 class="heading"> Meus Serviços </h2>
+        <div class="services-container">
+
+            <div class="services-box">
+                <div class="services-info">
+                    <i class='bx bx-layout'></i>
+                    <h4>Desenvolvimento de E-commerce</h4>
+                    <p>Desenvolvimento de lojas virtuais personalizadas, focadas em usabilidade, conversão e
+                        performance. Tenho experiência na criação de e-commerces dinâmicos, com recursos como
+                        redirecionamento para WhatsApp, integração com APIs de pagamento e otimização para SEO,
+                        garantindo uma melhor experiência para os clientes e mais eficiência para os negócios.</p>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <div class="services-info">
+                    <i class='bx bx-code'></i>
+                    <h4>Desenvolvedor Frontend</h4>
+                    <p>Possuo experiência no desenvolvimento de interfaces modernas e responsivas. Também tenho
+                        conhecimento em React, criando componentes reutilizáveis e otimizando a
+                        experiência do usuário. Busco sempre melhorar minhas habilidades em estilização avançada,
+                        acessibilidade e boas práticas de desenvolvimento para entregar interfaces eficientes e
+                        atraentes.</p>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <div class="services-info">
+                    <i class='bx bx-code-curly'></i>
+                    <h4>Desenvolvedor Backend</h4>
+                    <p>Criação de APIs com Node.js para integrar o frontend com bancos de dados e serviços externos,
+                        garantindo aplicações escaláveis e dinâmicas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+
+        <h2 class="heading">Meus <span>Projetos</span></h2>
+        <div class="projects-box">
+
+            <div class="project-card">
+                <img src="img/hell-hook.png" alt="Imagem do projeto 1">
+                <h3>Loja Hell-hook</h3>
+                <p>É um e-commerce dedicado a lutadores e entusiastas do Jiu-Jitsu, oferecendo uma
+                    experiência intuitiva e prática. A plataforma permite que os usuários explorem os produtos com
+                    facilidade e realizem suas compras de forma rápida e direta pelo WhatsApp.</p>
+                <div class="btn-group">
+                    <a class="btn" href="https://github.com/mateus1020/HOOK-DANIEL" target="_blank">GitHub</a>
+                    <a class="btn" href="https://heel-hook.netlify.app/" target="_blank">Deploy</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/usuarios.png" alt="Imagem do projeto 1">
+                <h3>Cadastro de Usuarios</h3>
+                <p>Estou utilizando React para criar uma interface dinâmica e interativa.
+                    Aprimorei minhas habilidades em componentização, estado e validação de formulários, garantindo uma
+                    melhor experiência para o usuário. Além disso, aprendi mais sobre requisições assíncronas e
+                    segurança no cadastro de dados.</p>
+                <div class="btn-group">
+                    <a class="btn" href="" target="_blank">GitHub</a>
+                    <!-- <a class="btn" href="" target="_blank">Deploy</a>  -->
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/jokenpo.png" alt="Imagem do projeto 1">
+                <h3>Projeto Jokenpô</h3>
+                <p>É um jogo interativo de Pedra, Papel e Tesoura desenvolvido com HTML, CSS e JavaScript. O usuário
+                    escolhe uma opção e desafia a máquina, que faz sua jogada aleatoriamente. O placar é atualizado
+                    dinamicamente, proporcionando uma experiência divertida e envolvente.</p>
+                <div class="btn-group">
+                    <a class="btn" href="https://github.com/mateus1020/JOKENPO" target="_blank">GitHub</a>
+                    <!-- <a class="btn" href="" target="_blank">Deploy</a>  -->
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- 
+    <section class="contact" id="contact"> 7
+        <h2 class="heading">Entre em <span>Contato</span></h2>
+
+        <form action="#">
+            <div class="input-group">
+
+                <div class="input-box">
+                    <input type="text" placeholder="Nome Completo">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Celular">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+                <input type="submit" value="Enviar Mensagem" class="btn">
+            </div>
+        </form>
+    </section> -->
+    <footer class="footer" id="contact">
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mateus-de-assun%C3%A7%C3%A3o-dias-548994133/" target="_blank">
+                <i class='bx bxl-linkedin-square'></i>
+            </a>
+
+            <a href="https://wa.me/+5561996627832?text=Olá, gostaria de discutir um projeto. Como posso ajudar?">
+                <i class='bx bxl-whatsapp'></i>
+            </a>
+
+            <p>Celular : 61 99662-7832</p>
+        </div>
+        <p class="copyright">
+            &copy; 2025 Mateus Assunção. Todos os direitos reservados.
+        </p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
